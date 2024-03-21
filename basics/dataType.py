@@ -26,7 +26,9 @@ str8="virtual box"
 print(str8.rstrip("box"))
 str9="visual studio"
 print(str9.lstrip("visual"))
-str10="welcome,to,great,girikalan magic show"
-print(str10.split(","))
-str11="madaki kutthu"
-print(str11.replace("ma","kp"))
+str10="madaki kutthu"
+print(str10.replace("ma","kp"))
+str11="welcome,to,great,girikalan magic show"
+print(str11.split(","))
+str12="viper is a smoke agent"
+print(str12.join("AN"))
