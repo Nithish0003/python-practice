@@ -26,5 +26,12 @@ country = {
 
 name="Nithish"
 number=6382544302
+city=country["City"][0]["name"]
+state=country["State"][1]
+country_name=country["country_name"]
+code=country["code"]
+
 
 print("My name is",name,"and I'm from",country["City"][0]["name"],",",country["State"][1],",",country["country_name"],"and my mobile number is",country["code"],number)
+print("My name is"+" "+name+" and I'm from "+country["City"][0]["name"].capitalize()+", "+country["State"][1]+", "+country["country_name"]+" and my mobile number is "+country["code"]+" "+str(number))
+print(f"My name is {name} and I'm from {city}, {state}, {country_name} and my mobile number is {code} {number}")
