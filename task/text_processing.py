@@ -1,10 +1,22 @@
 def count_words(text):
-    tmp=text.count(" ")
-    return tmp+1
+    try:    
+        tmp=text.count(" ")
+        return tmp+1
+    except Exception as e:
+        return e
 def count_char(text):
-    tmp=text.count("")
-    return tmp-1
+    try:
+        tmp=text.count("")
+        return tmp-1
+    except Exception as e:
+        return e
 def reverse_char(text):
-    return text[::-1]
+    try:
+        return text[::-1]
+    except Exception as e:
+        return e
 def capitalize_words(text):
-    return text.capitalize()
+    try:
+        return text.capitalize()
+    except Exception as e:
+        return e
